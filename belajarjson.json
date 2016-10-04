@@ -1,0 +1,17 @@
+var data = [
+    {
+        "nama" : "Ridwan Teharudin",
+        "hobi" : "Belajar",
+        "umur" : "22"
+    },
+    {
+        "nama" : "Ade Rizky",
+        "hobi" : "Menyanyi",
+        "umur" : "23"
+    },
+    {
+        "nama" : "Dodik",
+        "hobi" : "Touring",
+        "umur" : "20"
+    }
+];

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="w3.css" rel="stylesheet">
+    <script type="text/javascript" src="belajarjson.json"></script>
+    <script>
+        function list(){
+            for (i = 0; i < data.length; i++) {
+            //alert(data[i].nama);
+                document.getElementById("myList").innerHTML += "<li>"+data[i].nama+"</li>"
+            }
+        }
+	  
+    </script>
+</head>
+<body onload="list()">
+    <div class="w3-container w3-blue">
+        <h1 id="kepala" >INI HEADER </h1>
+    </div>
+    <ul id="myList" class="w3-ul">
+      
+    </ul>
+
+</body>
+</html>
+
+
+
